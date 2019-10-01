@@ -1,5 +1,38 @@
 body {
-    width: 100%;
+    
+}
+
+main {
+    display: flex;
+}
+
+.aside {
+    padding: 30px 30px 160px 50px;
+    background-color: #345c57;
+    min-width: 175px;
+}
+
+aside h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.aside ol, h3 {
+ margin:0;
+ padding:0;
+}
+
+aside ol {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section.content {
+    padding: 40px 40px 0px 40px;    
+}
+
+section.content p {
+    font-size: 18px;
+    margin: 0px 0px 20px 0px;
 }
 
 footer {
@@ -18,6 +51,10 @@ footer ul {
 
 .footer ul a:link {
   color: black;
+}
+
+.footer ul a:visited {
+  color: #0b0775;
 }
 
 /*.ul li {*/
