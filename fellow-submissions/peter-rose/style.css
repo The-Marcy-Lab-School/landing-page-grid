@@ -2,6 +2,34 @@ body {
     
 }
 
+header {
+    height: 100%;
+    background-color: navy;
+    display: flex;
+
+    flex-flow: column wrap;
+
+    padding: 20px 0px 30px 0px;
+    color: white;
+
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+header p {
+    font-size: 20px;
+    margin: 0px;     
+    display: flex;
+    justify-content: center;
+    
+}
+
 main {
     display: flex;
 }
@@ -56,9 +84,3 @@ footer ul {
 .footer ul a:visited {
   color: #0b0775;
 }
-
-/*.ul li {*/
-/*    width: 40%;*/
-/*    height: 40%;*/
-
-/*}*/
