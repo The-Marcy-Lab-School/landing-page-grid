@@ -1,0 +1,86 @@
+body {
+    
+}
+
+header {
+    height: 100%;
+    background-color: navy;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px 0px 30px 0px;
+    color: white;
+
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+header p {
+    font-size: 20px;
+    margin: 0px;     
+    display: flex;
+    justify-content: center;
+    
+}
+
+main {
+    display: flex;
+    word-wrap:break-word;
+    min-height:40px;
+}
+            
+.aside {
+    padding: 30px 100px 160px 50px;
+    background-color: #345c57;
+    
+}
+
+aside h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.aside ol, h3 {
+ margin:0;
+ padding:0;
+}
+
+aside ol {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section.content {
+    padding: 40px 40px 0px 40px;    
+}
+
+section.content p {
+    font-size: 18px;
+    margin: 0px 0px 20px 0px;
+}
+
+footer {
+    background-color: #e69a04;
+}
+
+footer ul {
+    padding:40px 0px 30px 0px;
+    margin:0px;
+    list-style:none;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.footer ul a:link {
+  color: black;
+}
+
+.footer ul a:visited {
+  color: #0b0775;
+}
