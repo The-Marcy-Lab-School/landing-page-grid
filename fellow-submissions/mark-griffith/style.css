@@ -14,12 +14,10 @@ main{
     ". footer footer footer .";
 }
 section{
-    display:grid;
     grid-area: section;
     background-color:#fff;
 }
 header{
-    display:grid;
     grid-area:header;
     background-color: #040972;
     text-align: center;
@@ -29,12 +27,15 @@ h1,h2{
     color:#fff;
 }
 aside{
-    display:grid;
     grid-area:aside;
     background-color: #b1d8e4;
 }
+aside ol{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
 footer{
-    display:grid;
     grid-area:footer;
     background-color:#f2eaa6;
 }
